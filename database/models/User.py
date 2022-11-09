@@ -1,6 +1,6 @@
 from tortoise import fields
 from tortoise.contrib.pydantic import pydantic_model_creator
-from database.models.BaseModel import BaseModel
+from database.Models.BaseModel import BaseModel
 from passlib.hash import bcrypt
 
 
