@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Depends, HTTPException, status
-from database.models.User import user_form_request, user_resource
+from database.Models.User import user_form_request, user_resource
 from services import UserService
 from fastapi.security import OAuth2PasswordRequestForm, OAuth2PasswordBearer
 import jwt

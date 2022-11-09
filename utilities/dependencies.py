@@ -1,7 +1,7 @@
 from fastapi.security import OAuth2PasswordBearer
 from fastapi import Depends, HTTPException, status
 import jwt
-from database.models.User import User
+from database.Models.User import User
 from settings.env import Env
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl='auth/login')

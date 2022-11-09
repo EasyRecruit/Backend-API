@@ -1,4 +1,4 @@
-from database.models.User import User, user_form_request, user_resource
+from database.Models.User import User, user_form_request, user_resource
 from passlib.hash import bcrypt
 
 
