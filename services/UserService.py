@@ -10,6 +10,7 @@ async def store_user(request: user_form_request):
         username=request.username,
         email=request.email,
         mobile_number=request.mobile_number,
+        account_type=request.account_type,
         password_hash=bcrypt.hash(request.password_hash),
     )
     await user.save()

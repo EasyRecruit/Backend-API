@@ -12,6 +12,7 @@ class User(BaseModel):
     email = fields.CharField(max_length=225, unique=True)
     mobile_number = fields.CharField(max_length=20, unique=True)
     password_hash = fields.CharField(128)
+    account_type = fields.CharField(128)  # superadmin or user
 
     def verify_password(self, password):
         return bcrypt.verify(password, self.password_hash)
@@ -30,9 +31,3 @@ class User(BaseModel):
 
 user_resource = pydantic_model_creator(User, name='UserResource')
 user_form_request = pydantic_model_creator(User, name='UserFormRequest', exclude_readonly=True)
-
-
-
-
-
-

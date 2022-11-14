@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbdcae04-87a4-4966-b240-0fd0b8b5b5f9" name="Changes" comment="" />
+    <list default="true" id="bbdcae04-87a4-4966-b240-0fd0b8b5b5f9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,6 +75,7 @@
       <workItem from="1667598073892" duration="1947000" />
       <workItem from="1667894333797" duration="20596000" />
       <workItem from="1668403216027" duration="408000" />
+      <workItem from="1668403769307" duration="224000" />
     </task>
     <servers />
   </component>

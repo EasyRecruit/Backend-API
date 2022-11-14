@@ -35,14 +35,6 @@ async def login(request: OAuth2PasswordRequestForm = Depends()):
         )
     user_res = await user_resource.from_tortoise_orm(user)
     token = jwt.encode(user.encryptable_fields(), Env().APP_KEY)
-    # return success_response(
-    #     message="login successful",
-    #     data={
-    #         'access_token': token,
-    #         'token_type': 'bearer',
-    #         'user': user_res,
-    #     },
-    # )
     return {
         'access_token': token,
         'token_type': 'bearer',
